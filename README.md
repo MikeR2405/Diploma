@@ -82,23 +82,23 @@ def create_task(task: Task):
 Перед запуском приложений убедитесь, что у вас установлены необходимые зависимости. Для этого выполните команду:
 pip install -r requirements.txt
 
-Запуск приложений
-# Перейдите в директорию djangoProject
+# Запуск приложений
+Перейдите в директорию djangoProject
 cd djangoProject
 
-# Запустите приложения
+Запустите приложение
 python manage.py runserver
 
-# Перейдите в директорию FastAPI
+Перейдите в директорию FastAPI
 cd DiplomaProject/FastAPI
 
-# Запустите FastAPI приложение с помощью Uvicorn
+Запустите FastAPI приложение с помощью Uvicorn
 uvicorn main:app --reload
 
-# Перейдите в директорию Flask
+Перейдите в директорию Flask
 cd DiplomaProject/Flask
 
-# Запустите сервер разработки
+Запустите сервер разработки
 python app.py
 
 
