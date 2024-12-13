@@ -4,11 +4,11 @@
 
  Содержание
 
-- [Django Project](django-project)
-- [Flask Project](flask-project)
-- [FastAPI Project](fastapi-project)
-- [Установка](установка)
-- [Запуск приложений](запуск-приложений)
+- Django Project
+- Flask Project
+- FastAPI Project
+- Установка
+- Запуск приложений
 
  # Django Project
 
