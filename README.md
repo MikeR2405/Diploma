@@ -10,7 +10,7 @@
 - [Установка](установка)
 - [Запуск приложений](запуск-приложений)
 
- Django Project
+ # Django Project
 
  Описание
 
@@ -29,7 +29,7 @@ class Task(models.Model):
         return self.title
 
 
- Flask Project
+ # Flask Project
 Описание
 Flask-приложение простое и легковесное, позволяет пользователям добавлять, удалять и редактировать задачи в списке.
 
@@ -52,7 +52,7 @@ def add_task():
     task.save()  # Сохраните в базу
     return redirect('/')
 
-FastAPI Project
+# FastAPI Project
 Описание
 FastAPI-приложение предназначено для быстрой разработки RESTful API. Оно обеспечивает высокую производительность и простоту использования.
 
@@ -78,7 +78,7 @@ def create_task(task: Task):
     tasks.append(task)
     return task
 
-Установка
+# Установка
 Перед запуском приложений убедитесь, что у вас установлены необходимые зависимости. Для этого выполните команду:
 pip install -r requirements.txt
 
